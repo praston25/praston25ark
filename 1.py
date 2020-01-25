@@ -1,6 +1,7 @@
 import sys
 import json
 import io
+
 hobbies = "Coding, Oprek Android, Oprek Windows, Game"
 hobbies_list  = hobbies.split(",")
 
@@ -28,3 +29,5 @@ print(y)
 
 with open('data.json', 'w') as f:
   json.dump(x, f, ensure_ascii=False)
+
+exit ()
