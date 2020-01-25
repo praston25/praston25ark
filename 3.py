@@ -15,3 +15,5 @@ for x in list (range(people, 0, -1)):
         a+=1
     
 print ("Jumlah Jabat Tangan :", a)
+
+exit ()
